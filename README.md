@@ -28,7 +28,7 @@
 **方式一：Agent Skill 环境（豆包等）**
 
 1. 将 `ai-english-skill` 目录放入环境的 skills 根目录（例如 `workspace/.user_skills`）；
-2. 对话中触发（如说"开始专四口语思辨训练"）即可使用。
+2. 对话中触发（如说"开始口语练习"）即可使用。
 
 **方式二：OpenAI Agents SDK**
 
@@ -47,7 +47,7 @@
 ## 输入输出示例
 
 ```
-用户：开始训练
+用户：开始口语练习
 AI：Topic: Should schools ban smartphones on campus?
     For: I believe schools should ban smartphones, because they distract students from learning.
     Against: In my view, a total ban is unnecessary, since students need phones to contact their parents.
